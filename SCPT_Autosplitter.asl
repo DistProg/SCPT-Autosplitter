@@ -34,7 +34,7 @@ split {
 	}
 
 	// Will split on HUD disappearance in LAX Part 2.
-	if(current.map == "5_1_2"){
+	if(current.map == "5_1_2" && old.map != "5_1_1"){
 		return (current.missionEnd != 0 && old.missionEnd == 0 && current.missionEnd2 == 0 && old.missionEnd2 != 0);
 	}
 
