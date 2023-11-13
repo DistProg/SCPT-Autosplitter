@@ -22,7 +22,7 @@ startup
 
 //Run start
 start {
-	if (current.LevelTime > 20 || current.map == "0_0_0") return false;
+	if (current.LevelTime > 20 || current.map == "0_0_0" || current.map == "0_0_1") return false;
 	return (current.LevelTime > 2);
 }
 
